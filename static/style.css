@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+
+html, body, [class*="css"] {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ── Typography ────────────────────────────────────────────────────────────── */
+
+.main-title {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 2.6rem;
+    color: #5b9ec9;
+    margin-bottom: 0.2rem;
+    line-height: 1.1;
+}
+
+.subtitle {
+    color: #8a9ab5;
+    font-size: 0.95rem;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    margin-bottom: 2rem;
+}
+
+.sidebar-header {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #8ab8d0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Chat Bubbles ──────────────────────────────────────────────────────────── */
+
+.chat-user-label {
+    color: #a0b8d0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.chat-user-bubble {
+    background: #1a3a5c;
+    border: 1px solid #2d5080;
+    border-radius: 16px 16px 4px 16px;
+    padding: 0.8rem 1.2rem;
+    margin: 0.2rem 0 0.8rem auto;
+    color: #d0dff5;
+    font-size: 0.95rem;
+    max-width: 80%;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.chat-assistant-label {
+    color: #6ba3c8;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+}
+
+/* ── Tags ──────────────────────────────────────────────────────────────────── */
+
+.source-tag {
+    display: inline-block;
+    background: #0d2137;
+    border: 1px solid #1e4060;
+    color: #6ba3c8;
+    font-size: 0.72rem;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.query-tag {
+    display: inline-block;
+    background: #0d1f2d;
+    border: 1px solid #1a3a50;
+    color: #5a8fa8;
+    font-size: 0.75rem;
+    padding: 4px 12px;
+    border-radius: 6px;
+    margin: 3px 2px;
+    font-style: italic;
+}
+
+/* ── Status & Stats ────────────────────────────────────────────────────────── */
+
+.status-box {
+    background: #0d1f35;
+    border: 1px solid #1a3050;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #7a9fc0;
+}
+
+.doc-count {
+    font-family: 'Syne', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5b9ec9;
+}
+
+/* ── Buttons ───────────────────────────────────────────────────────────────── */
+
+.stButton > button {
+    background: linear-gradient(135deg, #1a3a5c 0%, #1e4870 100%);
+    color: #a8d0e8;
+    border: 1px solid #2a5080;
+    border-radius: 8px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #1e4870 0%, #245a88 100%);
+    border-color: #3a70a8;
+    color: #c8e4f5;
+}
+
+/* ── Inputs ────────────────────────────────────────────────────────────────── */
+
+.stTextInput > div > div > input {
+    background: #0d1f35;
+    border: 1px solid #1e3a58;
+    border-radius: 8px;
+    color: #c0d8f0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ── Expander ──────────────────────────────────────────────────────────────── */
+
+div[data-testid="stExpander"] {
+    background: #0a1628;
+    border: 1px solid #1a3050;
+    border-radius: 8px;
+}
