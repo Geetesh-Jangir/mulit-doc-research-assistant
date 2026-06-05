@@ -1,3 +1,5 @@
+torch==2.7.1
+torchvision==0.22.1
 streamlit>=1.32.0
 langchain>=0.1.0
 langchain-community>=0.0.20
