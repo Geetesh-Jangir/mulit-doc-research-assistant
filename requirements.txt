@@ -1,3 +1,4 @@
+protobuf==4.25.3
 streamlit>=1.32.0
 langchain>=0.1.0
 langchain-community>=0.0.20
